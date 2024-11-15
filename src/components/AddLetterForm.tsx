@@ -14,7 +14,8 @@ const onSubmit = async (data: {
   firstName: string;
   lastName: string;
   text: string;
-  owner: string; }) => {
+  owner: string;
+}) => {
   await addLetter(data);
   swal('Success', 'Your letter has been added', 'success', {
     timer: 2000,
@@ -23,7 +24,6 @@ const onSubmit = async (data: {
 
 const AddLetterForm: React.FC = () => {
   const { data: session, status } = useSession();
-  // console.log('AddStuffForm', status, session);
   const currentUser = session?.user?.email || '';
   const {
     register,
@@ -33,6 +33,7 @@ const AddLetterForm: React.FC = () => {
   } = useForm({
     resolver: yupResolver(AddLetterSchema),
   });
+
   if (status === 'loading') {
     return <LoadingSpinner />;
   }
@@ -45,7 +46,7 @@ const AddLetterForm: React.FC = () => {
       <Row className="justify-content-center">
         <Col xs={10}>
           <Col className="text-center">
-            <h2>Add Contact</h2>
+            <h2>Create Letter</h2>
           </Col>
           <Card>
             <Card.Body>
@@ -79,6 +80,7 @@ const AddLetterForm: React.FC = () => {
                   <textarea
                     {...register('text')}
                     className={`form-control ${errors.text ? 'is-invalid' : ''}`}
+                    style={{ height: '200px', width: '100%' }} // Adjust size
                   />
                   <div className="invalid-feedback">{errors.text?.message}</div>
                 </Form.Group>
@@ -87,7 +89,7 @@ const AddLetterForm: React.FC = () => {
                   <Row className="pt-3">
                     <Col>
                       <Button type="submit" variant="primary">
-                        Submit
+                        Post
                       </Button>
                     </Col>
                     <Col>
