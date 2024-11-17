@@ -3,7 +3,6 @@ import { compare } from 'bcrypt';
 import { type NextAuthOptions } from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import { prisma } from '@/lib/prisma';
-
 const authOptions: NextAuthOptions = {
   session: {
     strategy: 'jwt',
@@ -31,12 +30,10 @@ const authOptions: NextAuthOptions = {
         if (!user) {
           return null;
         }
-
         const isPasswordValid = await compare(credentials.password, user.password);
         if (!isPasswordValid) {
           return null;
         }
-
         return {
           id: `${user.id}`,
           email: user.email,
@@ -79,5 +76,4 @@ const authOptions: NextAuthOptions = {
   },
   secret: process.env.NEXTAUTH_SECRET,
 };
-
 export default authOptions;
