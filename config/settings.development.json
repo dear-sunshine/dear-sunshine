@@ -24,7 +24,22 @@
     { "email": "lucy@foo.com", "password": "changeme", "role": "USER" },
     { "email": "sophia@foo.com", "password": "changeme", "role": "USER" },
     { "email": "jax@foo.com", "password": "changeme", "role": "USER" },
-    { "email": "keira@foo.com", "password": "changeme", "role": "USER" }
+    { "email": "keira@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "peyton@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "logan@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "simon@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "ella@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "blake@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "alez@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "ryan@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "milo@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "kyle@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "lucy@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "avery@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "jules@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "casey@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "harper@foo.com", "password": "changeme", "role": "USER" },
+    { "email": "dylan@foo.com", "password": "changeme", "role": "USER" },
   ],
   "defaultLetters": [
     {
@@ -247,6 +262,358 @@
       "text": "Just want to escape for a bit. Everything’s been a bit too much lately. I need a day off.",
       "owner": "keira@foo.com",
       "tags": ["vent"]
-    }
+    },/**new data*/
+    {
+      "text": "Idk why I keep saying 'I’m fine' when I’m clearly not. Do you think people actually want to hear the truth?",
+      "owner": "logan@foo.com",
+      "tags": ["vent", "thoughts"],
+      "replies": [
+        {
+          "text": "Honestly, I think some people do care, but not everyone knows how to respond to honesty like that.",
+          "owner": "simon@foo.com"
+        },
+        {
+          "text": "I feel the same way. Sometimes it's easier to say 'I’m fine' than deal with explaining everything.",
+          "owner": "ella@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "I keep procrastinating on this huge assignment, and now I have zero motivation to even start. How do y’all push through this?",
+      "owner": "blake@foo.com",
+      "tags": ["school", "advice"],
+      "replies": [
+        {
+          "text": "Try breaking it into smaller tasks. Starting with something small always helps me get going.",
+          "owner": "alex@foo.com"
+        },
+        {
+          "text": "Same here. I set a timer for 20 minutes and force myself to focus. It usually works!",
+          "owner": "peyton@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "My mom keeps comparing me to my older sibling. Like, I get it—they’re perfect. Can we move on now?",
+      "owner": "ryan@foo.com",
+      "tags": ["family", "vent"],
+      "replies": [
+        {
+          "text": "That’s rough. Maybe talk to her about how it makes you feel?",
+          "owner": "milo@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Anyone else randomly get hit with the feeling like you’re not doing enough with your life? Or just me? 😂",
+      "owner": "kyle@foo.com",
+      "tags": ["thoughts", "vent"],
+      "replies": [
+        {
+          "text": "Literally all the time. It helps to write down small wins so you remember you’re making progress.",
+          "owner": "lucy@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "My best friend just got into a relationship, and I’m so happy for them, but also… now I feel super alone. Is that selfish?",
+      "owner": "peyton@foo.com",
+      "tags": ["friendship", "vent", "thoughts"],
+      "replies": [
+        {
+          "text": "It’s not selfish at all. Your feelings are valid, and it’s okay to feel that way.",
+          "owner": "avery@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Okay but seriously, how do you even start making new friends as an adult? It feels impossible.",
+      "owner": "jules@foo.com",
+      "tags": ["friendship", "advice"],
+      "replies": [
+        {
+          "text": "Try joining hobby groups or going to meetups. It feels awkward at first, but it gets better!",
+          "owner": "keira@foo.com"
+        },
+        {
+          "text": "I met some great friends through volunteer work. You bond while helping others.",
+          "owner": "chris@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Does anyone else feel super weird visiting their childhood home? It’s like the memories hit you all at once.",
+      "owner": "casey@foo.com",
+      "tags": ["family", "thoughts"],
+      "replies": [
+        {
+          "text": "Yes! It’s like stepping into a time capsule of emotions.",
+          "owner": "taylor@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "I told my crush I liked them, and now they’re acting distant. Did I totally ruin things? 🥲",
+      "owner": "harper@foo.com",
+      "tags": ["love", "vent"],
+      "replies": [
+        {
+          "text": "Maybe they just need time to process. It’s brave of you to share your feelings.",
+          "owner": "sophia@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Why is it so hard to just ask for help? Like, I know I need it, but something always stops me.",
+      "owner": "dylan@foo.com",
+      "tags": ["vent", "thoughts", "advice"],
+      "replies": [
+        {
+          "text": "Same. I think it’s because we’re afraid of being judged, but asking for help shows strength.",
+          "owner": "jax@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Weird question, but what’s something small that makes you happy? I need ideas to boost my mood today.",
+      "owner": "skye@foo.com",
+      "tags": ["positivity", "thoughts"],
+      "replies": [
+        {
+          "text": "Watching the sunset always lifts my mood.",
+          "owner": "jamie@foo.com"
+        },
+        {
+          "text": "Listening to my favorite song on repeat helps me a lot.",
+          "owner": "zoe@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "I’ve been thinking about switching my major, but I’m scared I’ll regret it. Anyone been through this?",
+      "owner": "alex@foo.com",
+      "tags": ["school", "advice"]
+    },
+    {
+      "text": "I love my friends, but I feel like I can’t talk to them about serious stuff. How do you even bring that up?",
+      "owner": "simon@foo.com",
+      "tags": ["friendship", "advice"]
+    },
+    {
+      "text": "Today I saw a little kid give their ice cream to another kid who dropped theirs, and honestly, it melted my heart. We need more kindness like that.",
+      "owner": "chris@foo.com",
+      "tags": ["positivity", "love"]
+    },
+    {
+      "text": "Do you ever just stare at your to-do list and feel so overwhelmed you end up doing nothing at all? Because same.",
+      "owner": "morgan@foo.com",
+      "tags": ["vent", "thoughts"]
+    },
+    {
+      "text": "Is it normal to feel closer to online friends than people IRL? Sometimes I feel like I can be more myself with them.",
+      "owner": "taylor@foo.com",
+      "tags": ["friendship", "thoughts", "vent"]
+    },
+    {
+      "text": "Finally passed my driving test after failing twice! Guess I’m not as bad as I thought. 🚗",
+      "owner": "devon@foo.com",
+      "tags": ["positivity", "thoughts"]
+    },
+    {
+      "text": "How do you forgive someone who isn’t even sorry? I keep thinking about this, and it’s eating me up inside.",
+      "owner": "quinn@foo.com",
+      "tags": ["thoughts", "advice", "vent"],
+      "replies": [
+        {
+          "text": "Sometimes understanding that there are people who you should let go of even though in your heart of hearts you don't want to is best for you. ",
+          "owner": "devon@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "I want to say I love you to someone, but I’m terrified they won’t say it back. What would you do?",
+      "owner": "jamie@foo.com",
+      "tags": ["love", "advice", "vent"]
+    },{
+      "text": "I’ve been overthinking a conversation I had last week. Like, do they think I’m weird now? Ugh, brain, please chill.",
+      "tags": ["vent", "thoughts"],
+      "owner": "logan@foo.com",
+      "replies": [
+        {
+          "text": "I do this all the time. Honestly, they probably haven’t even thought about it since then!",
+          "owner": "sophia@foo.com"
+        },
+        {
+          "text": "Overthinking is the worst. Maybe try distracting yourself with something fun?",
+          "owner": "alex@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "What do you do when it feels like everything in life is moving forward, but you’re stuck in the same place?",
+      "tags": ["vent", "advice"],
+      "owner": "ryan@foo.com",
+      "replies": [
+        {
+          "text": "I felt this way last year. Sometimes small steps forward are still progress—don’t discount them.",
+          "owner": "ella@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Random thought: When’s the last time you told someone you’re proud of them? I think we need to do that more often.",
+      "tags": ["positivity", "love"],
+      "owner": "peyton@foo.com",
+      "replies": []
+    },
+    {
+      "text": "I found this old photo of me and my grandparents, and now I’m just sitting here crying. I miss them so much.",
+      "tags": ["family", "vent"],
+      "owner": "dylan@foo.com",
+      "replies": [
+        {
+          "text": "Photos like that are so bittersweet. It’s okay to miss them. They must’ve meant a lot to you.",
+          "owner": "taylor@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "How do you stop comparing yourself to others? It’s like I know I shouldn’t, but it’s so hard not to.",
+      "tags": ["thoughts", "advice"],
+      "owner": "logan@foo.com",
+      "replies": [
+        {
+          "text": "I get it—it’s so tough. I try to focus on my own goals instead of theirs, even if it’s hard.",
+          "owner": "keira@foo.com"
+        },
+        {
+          "text": "Remember, you’re only seeing their highlight reel, not their struggles.",
+          "owner": "avery@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Got my first A on an assignment this semester! Feels good to finally have something go right for once.",
+      "tags": ["positivity", "school"],
+      "owner": "blake@foo.com",
+      "replies": [
+        {
+          "text": "Congrats! That’s awesome—you earned it!",
+          "owner": "lucy@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Do you ever just stare at your phone waiting for a text that never comes? Yeah, me too.",
+      "tags": ["love", "thoughts", "vent"],
+      "owner": "casey@foo.com",
+      "replies": []
+    },
+    {
+      "text": "If you could give your younger self one piece of advice, what would it be? I think mine would be to stop worrying so much.",
+      "tags": ["thoughts", "advice"],
+      "owner": "kyle@foo.com",
+      "replies": [
+        {
+          "text": "Mine would be to take more risks. Younger me played it too safe.",
+          "owner": "milo@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "I’m thinking about getting back into journaling. Has anyone else found it helpful for sorting out their feelings?",
+      "tags": ["thoughts", "advice"],
+      "owner": "harper@foo.com",
+      "replies": [
+        {
+          "text": "Journaling is my go-to for when my thoughts feel overwhelming. Highly recommend it!",
+          "owner": "zoe@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Sometimes I feel like people only like the happy, funny version of me. But what about when I’m not okay?",
+      "tags": ["vent", "thoughts"],
+      "owner": "jules@foo.com",
+      "replies": []
+    },
+    {
+      "text": "Why is it so hard to say no? I always end up doing things I don’t want to just to avoid conflict.",
+      "tags": ["vent", "thoughts", "advice"],
+      "owner": "logan@foo.com",
+      "replies": [
+        {
+          "text": "Setting boundaries is so hard, but it’s worth practicing. Start small!",
+          "owner": "jamie@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Does anyone else get a weird wave of nostalgia when it starts getting cold? It reminds me of all the good winter memories.",
+      "tags": ["thoughts", "family", "positivity"],
+      "owner": "dylan@foo.com",
+      "replies": []
+    },
+    {
+      "text": "My friend ghosted me after I helped them through a really rough time. I just don’t get it.",
+      "tags": ["vent", "friendship"],
+      "owner": "peyton@foo.com",
+      "replies": [
+        {
+          "text": "That really sucks. It says more about them than you—you deserved better.",
+          "owner": "alex@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "You know that feeling when you finally clean your room, and it feels like your life is just a little bit more together? Yeah, that’s today.",
+      "tags": ["positivity", "thoughts"],
+      "owner": "kyle@foo.com",
+      "replies": [
+        {
+          "text": "The best feeling! It’s like an instant mood boost.",
+          "owner": "lucy@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "I’ve been thinking a lot about forgiveness lately. Is it more for them or for you?",
+      "tags": ["thoughts", "advice"],
+      "owner": "casey@foo.com",
+      "replies": [
+        {
+          "text": "For you, definitely. Holding onto grudges hurts you more than them.",
+          "owner": "milo@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "There’s this professor who always makes me feel so dumb for asking questions in class. Like, isn’t that what they’re there for?",
+      "tags": ["vent", "school"],
+      "owner": "ryan@foo.com",
+      "replies": [
+        {
+          "text": "That’s so frustrating. Maybe talk to another professor about how to handle it?",
+          "owner": "avery@foo.com"
+        }
+      ]
+    },
+    {
+      "text": "Do you ever just want to pause everything and take a breather? Life’s been feeling so overwhelming lately.",
+      "tags": ["vent", "thoughts"],
+      "owner": "jules@foo.com",
+      "replies": []
+    },
+    {
+      "text": "What’s something small that made you smile today? For me, it was seeing a dog stick its head out of a car window.",
+      "tags": ["positivity", "thoughts"],
+      "owner": "peyton@foo.com",
+      "replies": [
+        {
+          "text": "A kid waved at me from a school bus this morning. It was so pure!",
+          "owner": "taylor@foo.com"
+        }
+      ]
+    }    
   ]
 }
